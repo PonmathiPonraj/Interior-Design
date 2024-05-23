@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+ 
+.view h1 {
+    text-align: center;
+    color: brown;
+    font-family:cursive;
+}
+
+.about_img img {
+    width:100%;
+}
+
+.abt_content {
+    background-color:bisque;
+    margin: 20px 0px;
+}
+
+.title h1 {
+    text-align: center;
+    color:brown;
+    font-family: cursive;
+    padding-top: 20px;
+}
+
+.def p {
+    text-align: center;
+    text-align: justify;
+    color:brown;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.founder_section {
+    background-color: bisque;
+    margin: 20px auto;
+}
+
+.founder h2 {
+    text-align: center;
+    color:darkred;
+    font-family: cursive;
+}
+
+.founder_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+.founder-info {
+    max-width: 50%;
+    text-align: center;
+    color:darkslategrey;
+}
+
+.founder-image img {
+    width: 370px;
+    height: 380px;
+}
+
+.founder-info h2 {
+    color:darkred; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.founder-info p {
+    line-height: 1.5
+}
+
+.partners {
+    margin: 20px;
+}
+
+.partners h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.partners-section {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.partners-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: cursive;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner-logo {
+    width: 20%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.logo img {
+    width: 40%;
+    border-radius: 60px;
+    margin: 10px;
+}
+   
+.navbar ul {
+   list-style-type: none;
+}
+ 
+.navbar ul li a {
+   color:black;
+   text-decoration: none;
+}
+
+.navbar ul li{
+   margin-right: 25px;
+   display: inline-block;
+   text-decoration:none;
+   font-weight: bolder;
+}
+ 
+.navbar ul li i {
+    margin-right: 5px;
+}
+ 

@@ -1,0 +1,253 @@
+* { 
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "poppins",sans-serif;
+}
+
+body {
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: #f4f4f4;
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo img {
+   width: 40%;
+   border-radius: 60px;
+   margin: 10px;
+}
+  
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  color:black;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  margin-right: 25px;
+  display: inline-block;
+  text-decoration:none;
+  font-weight: bolder;
+}
+
+.navbar ul li i {
+   margin-right: 5px;
+}
+
+header {
+   padding: 20px;
+}
+
+.company-name h1 {
+   text-align: center;
+   color: #a54c0b;
+   font-size: 50px;
+}
+    
+.company-content p {
+   font-size: 24px;
+   color: #4a4646;
+   font-style: italic;
+   text-align: justify;
+   margin: 20px;
+}
+
+.collection :hover {
+   text-align: center;
+   color:limegreen; 
+   text-decoration: underline;
+}
+
+.discount {
+   display: flex;
+}
+
+.discount_img img {
+   display: inline-block;
+   margin: 20px;
+   border-radius: 50px;
+   width: 400px;
+   height: 720px;
+   object-fit: cover;
+}
+
+.collection {
+   padding: 20px;
+}
+
+.collection_details ul {
+   text-align: center;
+   list-style-type: none;
+   padding: 0px;
+}
+
+.collection_details ul li {
+   display: inline-block;
+   padding: 10px;
+   font-weight: bolder;
+}
+
+.collection_details ul li a {
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.copy p {
+   text-align: center;
+   color:white;
+   font-family: 'Roboto',sans-serif;
+   font-weight: bolder;
+   padding: 20px;
+   font-size: 14px;
+   word-spacing: 2px;
+}
+
+.copy{
+   background-color: #6F4E37;
+}
+
+.interior_section {
+   margin: 20px;
+   padding: 20px;
+}
+
+.design_description {
+   color:black;
+   margin: 10px 0;
+}
+
+.top h1 {
+   text-align: center;
+   color:#333;
+   font-size: 50px;
+   font-style: italic;
+
+}
+
+.top h1:hover {
+   color:forestgreen;
+   text-decoration: underline;
+}
+
+.design_content h3 {
+   text-decoration:line-through;
+   color:darkslategrey;
+   margin-bottom: 15px;
+}
+
+.interior_design {
+   display: flex;
+   margin: 20px;
+}
+
+.design {
+   background-color: #fff;
+   border-radius: 0px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   width: calc(33.33% - 20px);;
+   text-align: center;
+   margin: 20px;
+}
+
+.design2 {
+   background-color: #fff;
+   border-radius: 0px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   width: calc(33.33% - 20px);;
+   text-align: center;
+   margin: 20px;
+}
+
+.design_title {
+   color:#6F4E37;
+   margin: 20px;
+}
+
+.interior_images {
+   width: 730px;
+   height: 910px;
+}
+
+.video_section {
+   margin: 20px;
+   padding: 20px;
+}
+
+.topper h1 {
+   text-align: center;
+   font-weight: 900;
+   color:#6F4E37;
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+
+video {
+   display: block;
+   margin: 0px auto;
+   width: 70%;
+}
+
+footer {
+   margin: 20px 0px;
+}
+
+.end {
+   background-color:burlywood;
+   text-align: center;
+   padding: 30px 30px;
+}
+
+.end h1 {
+   margin-bottom: 20px;
+}
+
+.end h1:hover {
+   text-decoration:underline;
+   color:#6F4E37;
+}
+
+.end p {
+   text-align: center;
+   font-weight:lighter;
+   color: maroon;
+   line-height: 1.5;
+}
+
+.social-icons {
+	padding:20px;
+	background-color:saddlebrown;
+   text-align: center;
+}
+
+.social-icons a {
+   color:black;
+   line-height:30px;
+   font-size:30px;
+   text-decoration:none;
+}
+
+.social-icons a i {
+	line-height:30px;
+   font-size:30px;
+   transition: all 200ms ease-in;
+   transform: scale(1);
+   margin-right: 10px;
+}
+
+.social-icons a:hover i {
+   box-shadow: 0px 0px 150px #832c2c;
+   z-index: 2;
+   transition: all 200ms ease-in;
+   transform: scale(1.5);
+}
